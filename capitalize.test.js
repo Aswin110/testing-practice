@@ -1,5 +1,7 @@
+/* eslint-disable no-undef */
 import capitalize from './capitalize.js';
 
+// eslint-disable-next-line no-undef
 test('capitalize ', () => {
 	expect(capitalize('test')).toBe('Test');
 });
