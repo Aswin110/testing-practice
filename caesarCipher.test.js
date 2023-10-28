@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import caesarCipher from './caesarCipher.js';
 
 test('Caesar Cipher 1', () => {
@@ -6,4 +7,8 @@ test('Caesar Cipher 1', () => {
 
 test('Caesar Cipher 2', () => {
 	expect(caesarCipher('Test')).toBe('yjxy');
+});
+
+test('Caesar Cipher 3', () => {
+	expect(caesarCipher('abcdefghijklmnopqrstuvwxyz')).toBe('fghijklmnopqrstuvwxyzabcde');
 });
