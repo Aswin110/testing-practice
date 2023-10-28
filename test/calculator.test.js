@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-import { add, sub, mul, div } from './calculator.js';
+import { add, sub, mul, div } from '../code/calculator.js';
 
 test('addition ', () => {
 	expect(add(1,2)).toEqual(3);

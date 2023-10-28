@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-import caesarCipher from './caesarCipher.js';
+import caesarCipher from '../code/caesarCipher.js';
 
 test('Caesar Cipher 1', () => {
 	expect(caesarCipher('attack at dawn')).toBe('fyyfhp fy ifbs');

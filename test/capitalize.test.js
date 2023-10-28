@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-import capitalize from './capitalize.js';
+import capitalize from '../code/capitalize.js';
 
 // eslint-disable-next-line no-undef
 test('capitalize ', () => {
